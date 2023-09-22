@@ -17,5 +17,5 @@ jobs:
             - name: Auto Translate
               uses: Lin-jun-xiang/action-translate-readme@v2 # Based on the tag       
               with:
-                token: ${{ secrets.GITHUB_TOKEN }} # Based on step2 name
+                token: ${{ secrets.ACTION_BOT }} # Based on step2 name
                 g4f_provider: g4f.Provider.Acytoo # You can change this provider
