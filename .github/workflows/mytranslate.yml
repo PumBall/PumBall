@@ -17,6 +17,6 @@ jobs:
             - name: Auto Translate
               uses: Lin-jun-xiang/action-translate-readme@v2 # Based on the tag       
               with:
-                token: ${{ secrets.ACTION_BOT }} # Based on step2 name
+                token: ${{ secrets.Action_Bot }} # Based on step2 name
                 g4f_provider: g4f.Provider.DeepAi # You can change this provider
                 langs: "en,zh-TW,French,Arabic"
